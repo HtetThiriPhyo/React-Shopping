@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.category-btn-group{
+    overflow: hidden;
+}
+
+.category-btn-group{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+}
+
+.category-btn-group::-webkit-scrollbar{
+    display: none;
+}
+
