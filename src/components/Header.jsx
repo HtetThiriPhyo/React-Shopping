@@ -1,10 +1,13 @@
 import React from 'react'
+import Container from './Container'
 
 const Header = () => {
   return (
     <>
     <header className='px-5 py-2'>
-   <div className="flex justify-between items-center">
+       
+      <Container>
+      <div className="flex justify-between items-center">
    <h1 className='p-5 italic font-bold hover:not-italic text-cyan-700 text-2xl'>
       JEWELLERY RI
     </h1>
@@ -16,6 +19,8 @@ const Header = () => {
       </span>
     </button>
    </div>
+      </Container>
+        
     </header>
     </>
   )

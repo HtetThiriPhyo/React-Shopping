@@ -1,5 +1,6 @@
 import React from "react";
 import CategoryBtn from "./CategoryBtn";
+import Container from "./Container";
 
 const CategorySection = () => {
   const title = "Jewel Product";
@@ -16,7 +17,8 @@ const CategorySection = () => {
   return (
     <>
       <section id="category-section" className="p-5">
-        <p className="text-sm text-gray-500 mb-2">{title}</p>
+       <Container>
+       <p className="text-sm text-gray-500 mb-2">{title}</p>
         <div className=" flex category-btn-group">
          
           <CategoryBtn categoryName="All" current={true} />
@@ -29,6 +31,7 @@ const CategorySection = () => {
           ))}
 
         </div>
+       </Container>
         
       </section>
     </>

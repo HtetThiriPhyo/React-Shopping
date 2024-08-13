@@ -1,5 +1,6 @@
 import React from 'react'
 import ProductCard from './ProductCard';
+import Container from './Container';
 
 const ProductSection = () => {
 
@@ -154,10 +155,11 @@ const ProductSection = () => {
 
   return (
     <section className='px-5'>
-       <p className='text-sm text-gray-500 mb-2'> 
+      <Container>
+      <p className='text-sm text-gray-500 mb-2'> 
         Available Product List
         </p>
-    <div className='grid grid-cols-4 gap-5'>
+    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5'>
         {products.map(product=> (
             <ProductCard key={product.id}
            product={product}
@@ -166,6 +168,7 @@ const ProductSection = () => {
             
             ))}
     </div>
+      </Container>
     </section>
   )
 }
