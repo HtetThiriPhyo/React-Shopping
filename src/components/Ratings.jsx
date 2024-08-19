@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Ratings = ({rate}) => {
-    const currentRate = rate.toFixed(0);
+    const currentRate = parseInt(rate).toFixed(0);
     // const stars = [];
 
     let length = 5;

@@ -4,7 +4,7 @@ const Footer = () => {
     const date = new Date();
   return (
     <>
-    <footer className='mx-5 mt-auto bg-cyan-700 text-white text-center py-2 '>
+    <footer className='mx-5 mt-auto bg-cyan-700 text-white text-center py-2  rounded-t-lg'>
         {date.getFullYear()}
         <a href="https://mail.google.com/" className=' italic text-cyan-100 px-1'>
         Techy .
@@ -12,7 +12,7 @@ const Footer = () => {
         All rights reserved.
     </footer>
     </>
-    
+     
   )
 }
 

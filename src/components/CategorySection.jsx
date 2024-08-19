@@ -3,7 +3,7 @@ import CategoryBtn from "./CategoryBtn";
 import Container from "./Container";
 
 const CategorySection = () => {
-  const title = "Jewel Product";
+  const title = "Product Detail";
   const categories = 
   [ 
      
@@ -11,8 +11,8 @@ const CategorySection = () => {
     "BRACELETS", 
     "RINGS",
     "EARRINGS",
-    "JEWELLERY BOXES",
-    "GIFT CARD"
+    "BRIDAL",
+    "GIFTS"
   ];
   return (
     <>
